@@ -1,4 +1,5 @@
 module.exports = {
+    base: '/projectessentials.github.io/',
     dest: './docs',
     locales: {
         '/': {
