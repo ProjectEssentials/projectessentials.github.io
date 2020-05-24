@@ -1,6 +1,5 @@
 module.exports = {
     base: '/',
-    dest: '../',
     locales: {
         '/': {
             lang: 'en-US',
