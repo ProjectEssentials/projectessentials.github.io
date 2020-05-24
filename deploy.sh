@@ -5,8 +5,7 @@
 # build
 npm run build
 
-# navigate into the build output directory
-cd docs/.vuepress/dist
+cp -r ./docs/.vuepress/dist/. ./
 
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
@@ -23,5 +22,3 @@ git commit -m 'deploy'
 git push
 
 cd -
-
-pause
