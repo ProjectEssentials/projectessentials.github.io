@@ -3,6 +3,7 @@
 # abort on errors
 
 # build
+npm cache clean
 npm run build
 
 cp -r ./docs/.vuepress/dist/. ./
