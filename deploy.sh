@@ -3,7 +3,7 @@
 # abort on errors
 
 # build
-npm run docs:build
+npm run build
 
 # navigate into the build output directory
 cd docs/.vuepress/dist
