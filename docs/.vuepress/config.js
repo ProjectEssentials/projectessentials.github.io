@@ -55,10 +55,10 @@ module.exports = {
                 },
                 nav: [
                     { text: 'Главная', link: '/' },
-                    { text: 'Скачать', link: '/download/' },
-                    { text: 'Руководство пользователя', link: '/guide/' },
-                    { text: 'API', link: '/api/' },
-                    { text: 'О проекте', link: '/about/' },
+                    { text: 'Скачать', link: '/ru/download/' },
+                    { text: 'Руководство пользователя', link: '/ru/guide/' },
+                    { text: 'API', link: '/ru/api/' },
+                    { text: 'О проекте', link: '/ru/about/' },
                     { text: 'Поддержать', link: 'https://gist.github.com/MairwunNx/fda95062618db6880ef8ee06e1bba54f' },
                     { text: 'GitHub', link: 'https://github.com/ProjectEssentials' }
                 ],
