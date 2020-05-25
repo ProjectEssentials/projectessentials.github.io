@@ -4,7 +4,7 @@ Project Essentials project created by **Pavel Erokhin (MairwunNx)** at `2019-08-
 
 ## Inspiration
 
-Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `PermissionsEx`, `ChatEx`, `WorldGuard`, `AuthMe`, `AromaBackup`. These projects have greatly influenced Project Essentials and are very similar in many ways.
+Project Essentials has inspired by `EssentialsX`, `Forge Essentials`, `PermissionsEx`, `ChatEx`, `WorldGuard`, `AuthMe`, `AromaBackup`. These projects have greatly influenced Project Essentials and are very similar in many ways.
 
 ## Implemented modules
 
