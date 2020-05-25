@@ -42,3 +42,34 @@ In production not recommended.
 
 [Download 2.0.0-SNAPSHOT.2 W/O RT](https://pkg.githubusercontent.com/212997885/48289100-80dc-11ea-89ce-8bffb45fa48f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200525%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200525T203357Z&X-Amz-Expires=300&X-Amz-Signature=ba8ee6cbb2b6317179948c34e117c81781a9c064e5b9bac712b4d3984eca5acf&X-Amz-SignedHeaders=host&actor_id=39625750&repo_id=0&response-content-disposition=filename%3DProjectEssentials-Core-2.0.0-SNAPSHOT.2%2BMC-1.14.4.jar&response-content-type=application%2Foctet-stream)
 
+## Permissions
+
+### Release <Badge text="stable"/> <Badge text="latest"/>
+
+#### 1.15.2
+
+[Download 1.15.2-1.0.2](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/v1.15.2-1.0.2/Project.Essentials.Permissions-1.15.2-1.0.2.jar)
+
+#### 1.14.4
+
+[Download 1.14.4-1.2.2](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/v1.14.4-1.2.2/Project.Essentials.Permissions-1.14.4-1.2.2.jar)
+
+---
+
+### Pre-Release <Badge text="unstable" type="warning"/> <Badge text="latest-pre"/>
+
+#### 1.15.2
+
+[Download 2.0.0-RC.1](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0-RC.1%2BMC-1.15.2/Project.Essentials.Permissions-2.0.0-RC.1+MC-1.15.2.jar)
+
+#### 1.14.4
+
+[Download 2.0.0-RC.1](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0-RC.1%2BMC-1.14.4/Project.Essentials.Permissions-2.0.0-RC.1+MC-1.14.4.jar)
+
+---
+
+### Snapshot <Badge text="experimental" type="error"/> <Badge text="deprecated" type="warning"/>
+
+#### 1.14.4
+
+[Download 2.0.0-SNAPSHOT.2](https://pkg.githubusercontent.com/212125667/f126ba00-80e3-11ea-9365-3ddf0e5614ee?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200525%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200525T204903Z&X-Amz-Expires=300&X-Amz-Signature=17d1598ba83d871c2c086a05ac6f1274514b9a49f492018b6eb0c74fa3a1ca66&X-Amz-SignedHeaders=host&actor_id=39625750&repo_id=0&response-content-disposition=filename%3DProjectEssentials-Permissions-2.0.0-SNAPSHOT.2%2BMC-1.14.4.jar&response-content-type=application%2Foctet-stream)
