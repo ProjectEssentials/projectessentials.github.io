@@ -14,6 +14,9 @@ module.exports = {
             description: 'Make forge servers great again. 🎉'
         }
     },
+    head: [
+        ['link', { rel: 'icon', href: `/logo.svg` }]
+    ],
     themeConfig: {
         smoothScroll: true,
         logo: '/logo.svg',
