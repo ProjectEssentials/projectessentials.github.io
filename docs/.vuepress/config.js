@@ -54,7 +54,7 @@ module.exports = {
                     }
                 },
                 nav: [
-                    { text: 'Главная', link: '/' },
+                    { text: 'Главная', link: '/ru/' },
                     { text: 'Скачать', link: '/ru/download/' },
                     { text: 'Руководство пользователя', link: '/ru/guide/' },
                     { text: 'API', link: '/ru/api/' },
