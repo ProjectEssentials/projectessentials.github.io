@@ -27,7 +27,7 @@ Project Essentials был вдохновлен `EssentialsX`, `Forge Essentials`
 ## Мод-паки
 
 Условия распространения:
-- Любой исходный код модулей Project Essentials не изменён.
+- Исходный код распространяемых модулей Project Essentials не изменён.
 - Ссылка на Project Essentials на `CurseForge` или `GitHub` в описание к Вашему мод-паку.
 
 ## Лицензия

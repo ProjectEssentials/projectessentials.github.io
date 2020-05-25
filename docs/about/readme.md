@@ -27,7 +27,7 @@ Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `Permissio
 ## Mod-packs
 
 Distribute conditions:
-- Any source code of modules of Project Essentials was unchanged.
+- Project Essentials source code of redistributable modules has not been modified.
 - Project Essentials `CurseForge` or `GitHub` link in readme for your mod-pack.
 
 ## License
