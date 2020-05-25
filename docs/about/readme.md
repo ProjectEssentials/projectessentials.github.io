@@ -10,12 +10,12 @@ Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `Permissio
 
 - `core` - core module, all other modules requires this, includes kotlin runtime, some other libraries and basic generic module logic. *(Has API)*
 - `basic` - basic module, includes general unsorted commands: `fly`, `god`, `heal` and teleport commands: `tpa`, `tpaccept`, `tpahere`, ect. and other.
-- `permissions` - provides extended player permissions controlling and some player actions in world. *(Has API)*
+- `permissions` - provides extended player permissions controlling, and some player actions in world. *(Has API)*
 - `cooldown` - provides cooldowns for commands using and item using. *(Has API)*
 - `home` - provides commands for your private home points management.
-- `waprs` - provides commands for your public points (waprs) management.
+- `waprs` - provides commands for your public points (warps) management.
 - `spawn` - provides 2 commands for world spawn point management.
-- `chat` - provides improvements for chat. This makes chat more **beautiful**. Anti-advertising, anti-flood, bad-word custom filters, ranged chat, mute management, prefixes for nicknames in the chat, and more. *(Has API)*
+- `chat` - provides improvements for a chat. These makes chat more **beautiful**. Anti-advertising, anti-flood, bad-word custom filters, ranged chat, mute management, prefixes for nicknames in the chat, and more. *(Has API)*
 - `backup` - provides automatically backups of your world and configurations, also includes commands for controlling backup loop. *(Has API since 2.0.0)*
 
 ## WIP* modules
@@ -39,7 +39,7 @@ Distribute conditions:
 
 - <> version supports while forge support <> version.
 - New minecraft versions will marked as default in git branches.
-- All supported by me minecraft versions will get releses with same changes.
+- All supported by me minecraft versions will get releases with same changes.
 - While I'm or Project Essentials will supported by community 💖.
 
 ## Support me!

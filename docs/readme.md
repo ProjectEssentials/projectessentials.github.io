@@ -16,8 +16,8 @@ features:
   details: The project consists of a many modules, 8 modules + 1 core module + 2 WIP* modules.
 - title: Performance
   details: Project modules do not overload the server even if all (9) modules are installed.
-- title: Multiversion support
-  details: Currently I support two versions of minecraft `1.14.4` and `1.15.2` with Forge. And I'll support more versions.
+- title: Multi version support
+  details: Currently I support two versions of minecraft `1.14.4` and `1.15.2` with Forge. I'll support more versions.
 ---
 
 `*` - work in progress
