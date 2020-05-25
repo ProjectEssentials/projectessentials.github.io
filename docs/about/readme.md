@@ -18,11 +18,11 @@ Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `Permissio
 - `chat` - provides improvements for a chat. These makes chat more **beautiful**. Anti-advertising, anti-flood, bad-word custom filters, ranged chat, mute management, prefixes for nicknames in the chat, and more. *(Has API)*
 - `backup` - provides automatically backups of your world and configurations, also includes commands for controlling backup loop. *(Has API since 2.0.0)*
 
-## WIP* modules
+## WIP modules
 - `protect` - no description provided. *(Will has API)*
 - `auth` - no description provided. *(Will has API)*
 
-`*` - work in progress
+`WIP` - work in progress
 
 ## Mod-packs
 
