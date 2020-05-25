@@ -9,7 +9,7 @@ Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `Permissio
 ## Implemented modules
 
 - `core` - core module, all other modules requires this, includes kotlin runtime, some other libraries and basic generic module logic. *(Has API)*
-- `basic` - basic module, includes general unsorted commands: `fly`, `god`, `heal` and teleport commands: `tpa`, `tpaccept`, `tpahere`, ect. and other.
+- `basic` - basic module, includes general unsorted commands: `fly`, `god`, `heal` and teleport commands: `tpa`, `tpaccept`, `tpahere`, ect. Other commands not listed here.
 - `permissions` - provides extended player permissions controlling, and some player actions in world. *(Has API)*
 - `cooldown` - provides cooldowns for commands using and item using. *(Has API)*
 - `home` - provides commands for your private home points management.
