@@ -24,8 +24,8 @@ Project Essentials has inspired by **EssentialsX**, **Forge Essentials**, **Perm
 
 | Module        | Repository                                                                        | Will has API? | Description               | 
 | ------------- | -------------                                                                     | ------------- | -------------             |
-| protect       | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Protect)        | `true`        | Description will be added after the module has been released.  |
-| auth          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Auth)           | `true`        | Description will be added after the module has been released.  |
+| protect       | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Protect)        | `true`        | Description will be added after the module has been released pre-release.  |
+| auth          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Auth)           | `true`        | Description will be added after the module has been released pre-release.  |
 
 ## Mod-packs
 
@@ -35,8 +35,8 @@ Distribute conditions:
 
 ## License
 
-- Since 2.0.0 all module sources distributing with `MIT` license.
-- Before 2.0.0 all module sources distributing with `LGPL-3.0` license.
+- Since `2.0.0` all module sources distributing with `MIT` license.
+- Before `2.0.0` all module sources distributing with `LGPL-3.0` license.
 
 ## Customer support terms
 
