@@ -1,34 +1,37 @@
 # About
 
-Project Essentials project created by **Pavel Erokhin (MairwunNx)** at `2019-08-29`, it adds many useful commands and consists of modules, each module adds specific functions, capabilities and more.
+Project Essentials project created by **MairwunNx** at July 29, 2019, it adds many useful commands and consists of modules, each module adds specific functions, capabilities and more.
 
 ## Inspiration
 
-Project Essentials has inspired by `EssentialsX`, `Forge Essentials`, `PermissionsEx`, `ChatEx`, `WorldGuard`, `AuthMe`, `AromaBackup`. These projects have greatly influenced Project Essentials and are very similar in many ways.
+Project Essentials has inspired by **EssentialsX**, **Forge Essentials**, **PermissionsEx**, **ChatEx**, **WorldGuard**, **AuthMe**, **AromaBackup**. These projects have greatly influenced Project Essentials and are very similar in many ways.
 
 ## Implemented modules
 
-- `core` - core module, all other modules requires this, includes kotlin runtime, some other libraries and basic generic module logic. *(Has API)*
-- `basic` - basic module, includes general unsorted commands: `fly`, `god`, `heal` and teleport commands: `tpa`, `tpaccept`, `tpahere`, ect. Other commands not listed here.
-- `permissions` - provides extended player permissions controlling, and some player actions in world. *(Has API)*
-- `cooldown` - provides cooldowns for commands using and item using. *(Has API)*
-- `home` - provides commands for your private home points management.
-- `waprs` - provides commands for your public points (warps) management.
-- `spawn` - provides 2 commands for world spawn point management.
-- `chat` - provides improvements for a chat. These makes chat more **beautiful**. Anti-advertising, anti-flood, bad-word custom filters, ranged chat, mute management, prefixes for nicknames in the chat, and more. *(Has API)*
-- `backup` - provides automatically backups of your world and configurations, also includes commands for controlling backup loop. *(Has API since 2.0.0)*
+| Module        | Repository                                                                        | Has API?      | Description               | 
+| ------------- | -------------                                                                     | ------------- | -------------             |
+| core          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Core)           | `true`        | Core module, all other modules requires this, includes kotlin runtime, some other libraries and basic generic module logic.  |
+| basic         | [discover](https://github.com/ProjectEssentials/ProjectEssentials)                | `false`       | Basic module, includes general unsorted commands: `fly`, `god`, `heal` and teleport commands: `tpa`, `tpaccept`, `tpahere`, ect. Other commands not listed here.  |
+| permissions   | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Permissions)    | `true`        | Provides extended player permissions controlling, and some player actions in world.  |
+| cooldown      | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Cooldown)       | `true`        | Provides cooldowns for commands using and item using.  |
+| home          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Home)           | `false`       | Provides commands for your private home points management.  |
+| waprs         | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Waprs)          | `false`       | Provides commands for your public points (warps) management.  |
+| spawn         | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Spawn)          | `false`       | Provides 2 commands for world spawn point management.  |
+| chat          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Chat)           | `true`        | Provides improvements for a chat. These makes chat more **beautiful**. Anti-advertising, anti-flood, bad-word custom filters, ranged chat, mute management, prefixes for nicknames in the chat, and more.  |
+| backup        | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Backup)         | `true`        | Provides automatically backups of your world and configurations, also includes commands for controlling backup loop.  |
 
-## WIP modules
-- `protect` - no description provided. *(Will has API)*
-- `auth` - no description provided. *(Will has API)*
+## Work-in-progress modules
 
-`WIP` - work in progress
+| Module        | Repository                                                                        | Will has API? | Description               | 
+| ------------- | -------------                                                                     | ------------- | -------------             |
+| protect       | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Protect)        | `true`        | Description will be added after the module has been released.  |
+| auth          | [discover](https://github.com/ProjectEssentials/ProjectEssentials-Auth)           | `true`        | Description will be added after the module has been released.  |
 
 ## Mod-packs
 
 Distribute conditions:
-- Project Essentials source code of redistributable modules has not been modified.
-- Project Essentials `CurseForge` or `GitHub` link in readme for your mod-pack.
+- Project Essentials source code of redistributable modules **has not been modified**.
+- Project Essentials `CurseForge` or `GitHub` link in the readme of your mod-pack.
 
 ## License
 
@@ -37,8 +40,7 @@ Distribute conditions:
 
 ## Customer support terms
 
-- <> version supports while forge support <> version.
-- New minecraft versions will marked as default in git branches.
+- `<xxx>` version supports while forge support `<xxx>` version.
 - All supported by me minecraft versions will get releases with same changes.
 - While I'm or Project Essentials will supported by community 💖.
 
