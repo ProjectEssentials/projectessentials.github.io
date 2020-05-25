@@ -42,10 +42,6 @@ Distribute conditions:
 - All supported by me minecraft versions will get releases with same changes.
 - While I'm or Project Essentials will supported by community 💖.
 
-## Support me!
-
-Do you want support me or this project? -> [Support Me!](https://gist.github.com/MairwunNx/fda95062618db6880ef8ee06e1bba54f)
-
 ## Any ideas?
 
 Submit your ideas in **GitHub issues** or in **Discord** conversation or **Telegram** conversation. I will be happy to discuss new ideas.
