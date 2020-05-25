@@ -22,7 +22,7 @@ Project Essentials was inspired by `EssentialsX`, `Forge Essentials`, `Permissio
 - `protect` - no description provided. *(Will has API)*
 - `auth` - no description provided. *(Will has API)*
 
-`*` (meaning) - https://en.wikipedia.org/wiki/Work_in_process
+`*` - work in progress
 
 ## Mod-packs
 

@@ -4,7 +4,7 @@ heroImage: /logo.svg
 heroText: Project Essentials
 tagline: Создайте свой forge сервер 🎉
 actionText: Начать →
-actionLink: /guide/
+actionLink: /ru/guide/
 features:
 - title: Легко в использовании
   details: Просто перетащи файлы модулей в папку mods и продолжай создавать сервер.
@@ -20,4 +20,4 @@ features:
   details: Сейчас я поддерживаю две версии minecraft `1.14.4` и `1.15.2` c использованием Forge. И я буду поддерживать больше версий.
 ---
 
-`*` (значение) - https://en.wikipedia.org/wiki/Work_in_process
+`*` - work in progress

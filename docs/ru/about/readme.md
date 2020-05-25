@@ -22,7 +22,7 @@ Project Essentials был вдохновлен `EssentialsX`, `Forge Essentials`
 - `protect` - описание не предоставлено. *(Будет иметь API)*
 - `auth` - описание не предоставлено. *(Будет иметь API)*
 
-`*` (значение) - https://en.wikipedia.org/wiki/Work_in_process
+`*` - work in progress
 
 ## Мод-паки
 

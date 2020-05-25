@@ -20,4 +20,4 @@ features:
   details: Currently I support two versions of minecraft `1.14.4` and `1.15.2` with Forge. And I'll support more versions.
 ---
 
-`*` (meaning) - https://en.wikipedia.org/wiki/Work_in_process
+`*` - work in progress
