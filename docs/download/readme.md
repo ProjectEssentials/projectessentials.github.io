@@ -1,5 +1,15 @@
 # Download
 
+::: danger
+Snapshots and Alpha build is Experimental build, it may not even start!
+In production not recommended.
+:::
+
+::: warning
+Beta and Release Candidates is still unstable, but it can start!
+In production not recommended.
+:::
+
 ## Core
 
 ### Release <Badge text="stable"/> <Badge text="latest"/>
@@ -16,12 +26,6 @@
 
 ### Pre-Release <Badge text="unstable" type="warning"/> <Badge text="deprecated" type="warning"/>
 
-**Includes**: Beta, Release Candidate.
-
-::: warning
-Using pre-releases in production not recommended!
-:::
-
 #### 1.15.2
 
 [Download 2.0.0-RC.5](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.15.2/Project.Essentials.Core-MOD-2.0.0-RC.5+MC-1.15.2.jar) • [Download 2.0.0-RC.5 W/O RT](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.15.2/Project.Essentials.Core-NoRT-2.0.0-RC.5+MC-1.15.2.jar)
@@ -32,13 +36,7 @@ Using pre-releases in production not recommended!
 
 ---
 
-### Snapshot <Badge text="experiment" type="error"/> <Badge text="deprecated" type="warning"/>
-
-**Includes**: Snapshot, Alpha.
-
-::: danger
-Experimental build, it may not even start!
-:::
+### Snapshot <Badge text="experimental" type="error"/> <Badge text="deprecated" type="warning"/>
 
 #### 1.14.4
 
