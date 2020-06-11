@@ -1,75 +1,113 @@
-# Download
+---
+sidebar: false
+---
 
-::: danger
-Snapshots and Alpha build is Experimental build, it may not even start!
-In production not recommended.
-:::
+# Implemented modules
 
-::: warning
-Beta and Release Candidates is still unstable, but it can start!
-In production not recommended.
-:::
+## Core Module
 
-## Core
+**⚒ API for creating modules of Project Essentials and reduce code duplication, also core module contains kotlin runtime and libraries. Also contains some settings for vanilla commands and events.**
 
-### Release <Badge text="stable"/> <Badge text="latest"/>
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-core) • [Commands and configurations](...)
 
-#### 1.15.2
-
-[Download 2.0.0](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Core-MOD-2.0.0+MC-1.15.2.jar) • [Download W/O RT](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Core-NoRT-2.0.0+MC-1.15.2.jar)
-
-#### 1.14.4
-
-[Download 2.0.0](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Core-MOD-2.0.0+MC-1.14.4.jar) • [Download W/O RT](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Core-NoRT-2.0.0+MC-1.14.4.jar)
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.1.0%2BMC-1.15.2/Project.Essentials.Core-MOD-2.1.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.1.0%2BMC-1.14.4/Project.Essentials.Core-MOD-2.1.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Core/blob/master/changelog.md)
 
 ---
 
-### Pre-Release <Badge text="unstable" type="warning"/> <Badge text="deprecated" type="warning"/>
+## Permissions Module <Badge text="core required" type="warning"/>
 
-#### 1.15.2
+**⚖ API for controlling the activities of the player on the server and client. You can limit some commands to the player, his activities in the world and more.**
 
-[Download 2.0.0-RC.5](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.15.2/Project.Essentials.Core-MOD-2.0.0-RC.5+MC-1.15.2.jar) • [Download 2.0.0-RC.5 W/O RT](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.15.2/Project.Essentials.Core-NoRT-2.0.0-RC.5+MC-1.15.2.jar)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-permissions) • [Commands and configurations](...)
 
-#### 1.14.4
-
-[Download 2.0.0-RC.5](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.14.4/Project.Essentials.Core-MOD-2.0.0-RC.5+MC-1.14.4.jar) • [Download 2.0.0-RC.5 W/O RT](https://github.com/ProjectEssentials/ProjectEssentials-Core/releases/download/2.0.0-RC.5%2BMC-1.14.4/Project.Essentials.Core-NoRT-2.0.0-RC.5+MC-1.14.4.jar)
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Permissions-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Permissions-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/blob/master/changelog.md)
 
 ---
 
-### Snapshot <Badge text="experimental" type="error"/> <Badge text="deprecated" type="warning"/>
+## Basic Module <Badge text="core required" type="warning"/>
 
-#### 1.14.4
+**💗 A basic module of Project Essentials. This module adds a few basic commands in minecraft for the project. Many of the commands in this module will be familiar to you from EssentialsX.**
 
-[Download 2.0.0-SNAPSHOT.2 W/O RT](https://pkg.githubusercontent.com/212997885/48289100-80dc-11ea-89ce-8bffb45fa48f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200525%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200525T203357Z&X-Amz-Expires=300&X-Amz-Signature=ba8ee6cbb2b6317179948c34e117c81781a9c064e5b9bac712b4d3984eca5acf&X-Amz-SignedHeaders=host&actor_id=39625750&repo_id=0&response-content-disposition=filename%3DProjectEssentials-Core-2.0.0-SNAPSHOT.2%2BMC-1.14.4.jar&response-content-type=application%2Foctet-stream)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials) • [Commands and configurations](...)
 
-## Permissions
-
-### Release <Badge text="stable"/> <Badge text="latest"/>
-
-#### 1.15.2
-
-[Download 1.15.2-1.0.2](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/v1.15.2-1.0.2/Project.Essentials.Permissions-1.15.2-1.0.2.jar)
-
-#### 1.14.4
-
-[Download 1.14.4-1.2.2](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/v1.14.4-1.2.2/Project.Essentials.Permissions-1.14.4-1.2.2.jar)
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Basic-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Basic-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials/blob/master/changelog.md)
 
 ---
 
-### Pre-Release <Badge text="unstable" type="warning"/> <Badge text="latest-pre"/>
+## Spawn Module <Badge text="core required" type="warning"/>
 
-#### 1.15.2
+**🎊 How we control spawn point! Adds literally two commands to configure players spawn point in the game world.**
 
-[Download 2.0.0-RC.1](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0-RC.1%2BMC-1.15.2/Project.Essentials.Permissions-2.0.0-RC.1+MC-1.15.2.jar)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-spawn) • [Commands and configurations](...)
 
-#### 1.14.4
-
-[Download 2.0.0-RC.1](https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0-RC.1%2BMC-1.14.4/Project.Essentials.Permissions-2.0.0-RC.1+MC-1.14.4.jar)
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Spawn-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Spawn-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Spawn/blob/master/changelog.md)
 
 ---
 
-### Snapshot <Badge text="experimental" type="error"/> <Badge text="deprecated" type="warning"/>
+## Warps Module <Badge text="core required" type="warning"/>
 
-#### 1.14.4
+**🌌 Share the ender portal with players! Adds the ability to control public points in different worlds.**
 
-[Download 2.0.0-SNAPSHOT.2](https://pkg.githubusercontent.com/212125667/f126ba00-80e3-11ea-9365-3ddf0e5614ee?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20200525%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200525T204903Z&X-Amz-Expires=300&X-Amz-Signature=17d1598ba83d871c2c086a05ac6f1274514b9a49f492018b6eb0c74fa3a1ca66&X-Amz-SignedHeaders=host&actor_id=39625750&repo_id=0&response-content-disposition=filename%3DProjectEssentials-Permissions-2.0.0-SNAPSHOT.2%2BMC-1.14.4.jar&response-content-type=application%2Foctet-stream)
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-warps) • [Commands and configurations](...)
+
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Warps-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Warps-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Warps/blob/master/changelog.md)
+
+---
+
+## Home Module <Badge text="core required" type="warning"/>
+
+**🏡 A wonderful module not to lose your home! The module allows you to create, delete and teleport to homes.**
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-home) • [Commands and configurations](...)
+
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Home-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Home-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Home/blob/master/changelog.md)
+
+---
+
+## Backup Module <Badge text="core required" type="warning"/>
+
+**🤕 A lightweight module for controlling the backup of the game world and configuration files on the server and in a single world.**
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-backup) • [Commands and configurations](...)
+
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Backup-2.0.0+MC-1.15.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Backup-2.0.0+MC-1.14.4.jar) — [Release notes](https://github.com/ProjectEssentials/ProjectEssentials-Backup/blob/master/changelog.md)
+
+---
+
+## Chat Module <Badge text="core required" type="warning"/> <Badge text="incompatible with 2.x" type="error"/>
+
+**💌 A lightweight chat manager for Forge, with simple anti-spam and anti-advertising and anti-swearing protection, also with a configuration.**
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-chat) • [Commands and configurations](...)
+
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Chat/releases/download/v1.15.2-1.1.1/Project.Essentials.Chat-1.15.2-1.1.1.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Chat/releases/download/v1.14.4-1.1.1/Project.Essentials.Chat-1.14.4-1.1.1.jar) — [Release notes 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Chat/blob/MC-1.15.2/changelog.md) • [Release notes 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Chat/blob/MC-1.14.4/changelog.md)
+
+---
+
+## Cooldown Module <Badge text="core required" type="warning"/> <Badge text="incompatible with 2.x" type="error"/>
+
+**⌛ This module is responsible for cooldown Minecraft commands. The mod adds a delay for the use of commands, prevents command-spamming and limits the number of uses for a certain time. A mod can also create cooldown for command aliases. The delay and other settings are controlled by the configuration of the mod.**
+
+[CurseForge](https://www.curseforge.com/minecraft/mc-mods/project-essentials-cooldown) • [Commands and configurations](...)
+
+[Latest for 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Cooldown/releases/download/v1.15.2-1.0.2/Project.Essentials.Cooldown-1.15.2-1.0.2.jar) • [Latest for 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Cooldown/releases/download/v1.14.4-1.0.5/Project.Essentials.Cooldown-1.14.4-1.0.5.jar) — [Release notes 1.15.2](https://github.com/ProjectEssentials/ProjectEssentials-Cooldown/blob/MC-1.15.2/changelog.md) • [Release notes 1.14.4](https://github.com/ProjectEssentials/ProjectEssentials-Cooldown/blob/MC-1.14.4/changelog.md)
+
+---
+
+# Preview modules
+
+## Protect Module <Badge text="core, worldedit required" type="warning"/>
+
+**Lightweight analog of WorldGuard for Forge, defends your home and other staff!**
+
+*Hey! That module in preview stage! You can help me with testing it.*
+
+[GitHub Repository](https://github.com/ProjectEssentials/ProjectEssentials-Protect/)
+
+---
+
+## Auth Module <Badge text="core required" type="warning"/>
+
+*Hey! That module planed to implement that. I'll start working on it after protect module.*
+
+[GitHub Repository](https://github.com/ProjectEssentials/ProjectEssentials-Auth/)
