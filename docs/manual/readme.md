@@ -192,7 +192,7 @@ There are "live example" `permissions.json` file structure
         },
         { // <- One more user.
             "nickname": "JopaBibBib",
-            "group": "owner", // <- his group. (Of course he is owner he is creator of this module lol)
+            "group": "owner", // <- his group.
             "permissions": [ // <- ok, he is can execute all commands because he is owner with except /stop.
                 "^native.server.stop" // <- yea, it's permission node.
             ]
@@ -235,6 +235,7 @@ One more command, so it heavy command and it not can be written in commands tabl
 
 Commands for management users:
 
+```
 `/perm save` - saves permissions configuration.
 `/perm reload` - does reload permissions configuration.
 `/perm user <user-name> info` - displays information about user.
@@ -243,9 +244,11 @@ Commands for management users:
 `/perm user permissions <user-name> remove <node>` - does remove permission node from user if it exist.
 `/perm user permissions <user-name> list [deep [page]] [page]` - displays all permissions of user. (if you want get all permissions of user you need pass `deep` argument).
 `/perm user group set <group-name> for <user-name>` - sets group for target user.
+```
 
 Commands for management groups:
 
+```
 `/perm group list [page]` - displays all registered groups.
 `/perm group set-default <group-name>` - switch `isDefault` group factor to new target group.
 `/perm group create <group-name>` - creates new group with specified name.
@@ -258,6 +261,7 @@ Commands for management groups:
 `/perm group inherit <group-name> list [page]` - display all inherits groups of target group.
 `/perm group prefix <group-name>` - displays the current prefix of group in the chat.
 `/perm group prefix <group-name> <prefix>` - sets new prefix for target group.
+```
 
 ---
 
