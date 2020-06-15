@@ -8,7 +8,7 @@ const pkgConfig = require('./package.json').config;
 const componentsPath = join(__dirname, pkgConfig.components);
 
 const webpackConfig = () => ({
-  entry: "./src/index.tsx",
+  entry: `${componentsPath}/index.tsx`,
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
     mainFields: ['module', 'browser', 'main'],
