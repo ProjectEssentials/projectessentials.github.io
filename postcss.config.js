@@ -3,13 +3,11 @@ module.exports = () => ({
     require('postcss-import'),
     require('postcss-preset-env')({
       features: {
-        stage: 3, // See https://cssdb.org/#staging-process
+        stage: 3,
         importFrom: require.resolve('@jetbrains/ring-ui/components/global/variables.css'),
         features: {
           'nesting-rules': true,
-          'custom-properties': {
-            preserve: true
-          }
+          'custom-properties': {preserve: true}
         }
       }
     })
