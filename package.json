@@ -4,7 +4,7 @@
   "homepage": "./",
   "private": true,
   "config": {
-    "components": "./src/components",
+    "components": "./src",
     "dist": "./dist"
   },
   "scripts": {

@@ -8,8 +8,9 @@ const pkgConfig = require('./package.json').config;
 const componentsPath = join(__dirname, pkgConfig.components);
 
 const webpackConfig = () => ({
-  entry: `${componentsPath}/app/app.js`,
+  entry: "./src/index.tsx",
   resolve: {
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
     mainFields: ['module', 'browser', 'main'],
     alias: {
       react: resolve('./node_modules/react'),
@@ -27,20 +28,18 @@ const webpackConfig = () => ({
     rules: [
       ...ringUiWebpackConfig.config.module.rules,
       {
+        test: /\.(t|j)sx?$/,
+        use: {loader: 'ts-loader'},
+        exclude: /node_modules/
+      },
+      {
         test: /\.css$/,
-        include: componentsPath,
+        exclude: /node_modules/,
         use: [
           'style-loader',
           {loader: 'css-loader'},
           {loader: 'postcss-loader'}
         ]
-      },
-      {
-        // Loaders for any other external packages styles
-        test: /\.css$/,
-        include: /node_modules/,
-        exclude: ringUiWebpackConfig.componentsPath,
-        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.js$/,
