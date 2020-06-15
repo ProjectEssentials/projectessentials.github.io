@@ -1,6 +1,7 @@
 {
   "name": "projectessentials-github-io",
   "version": "1.0.0",
+  "homepage": "./",
   "private": true,
   "config": {
     "components": "./src/components",
