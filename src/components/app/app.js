@@ -1,42 +1,40 @@
-import React from 'react';
-import {render} from 'react-dom';
-import RedBox from 'redbox-react';
+import React, {Component} from 'react';
+import Header, {
+  Tray, SmartProfile, SmartServices
+} from '@jetbrains/ring-ui/components/header/header';
+import Auth from '@jetbrains/ring-ui/components/auth/auth';
+import Footer from '@jetbrains/ring-ui/components/footer/footer';
 
-import AppRoot from './app-root';
 import './app.css';
 
-const appEl = document.querySelector('.app-root');
-const rootEl = document.createElement('div');
+export default class App extends Component {
+  componentDidMount() {
+    // You can uncomment this after registering your client as a Hub service
+    // https://www.jetbrains.com/help/hub/2017.3/OAuth-2.0-Authorization.html#d79479e312
+    // this.auth.init();
+  }
 
-let renderApp = () => {
-  render(
-    <AppRoot/>,
-    rootEl
-  );
-};
-
-/* Hot Replacement support, won't be bundled to production */
-if (module.hot) {
-  const renderAppHot = renderApp;
-  const renderError = error => {
-    render(
-      <RedBox error={error}/>,
-      rootEl
-    );
-  };
-
-  renderApp = () => {
-    try {
-      renderAppHot();
-    } catch (error) {
-      renderError(error);
-    }
-  };
-
-  module.hot.accept('./app-root', () => {
-    setTimeout(renderApp);
+  auth = new Auth({
+    // clientId: <your client id here>
+    serverUri: 'https://hub.jetbrains.com' // replace with your Hub server
   });
-}
 
-renderApp();
-appEl.appendChild(rootEl);
+  render() {
+    return (
+      <div>
+        <Header>
+          <a href="/">
+          </a>
+          <Tray>
+            <SmartServices auth={this.auth}/>
+            <SmartProfile auth={this.auth}/>
+          </Tray>
+        </Header>
+        <div className="app-content">
+          {'App content'}
+        </div>
+        <Footer/>
+      </div>
+    );
+  }
+}
