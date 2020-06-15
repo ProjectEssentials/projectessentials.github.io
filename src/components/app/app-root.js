@@ -7,7 +7,6 @@ import Header, {
 } from '@jetbrains/ring-ui/components/header/header';
 import Auth from '@jetbrains/ring-ui/components/auth/auth';
 import Footer from '@jetbrains/ring-ui/components/footer/footer';
-import hubLogo from '@jetbrains/logos/hub/hub.svg';
 
 import './app.css';
 
@@ -28,10 +27,6 @@ export default class AppRoot extends Component {
       <div>
         <Header>
           <a href="/">
-            <Logo
-              glyph={hubLogo}
-              size={Logo.Size.Size48}
-            />
           </a>
           <Tray>
             <SmartServices auth={this.auth}/>
