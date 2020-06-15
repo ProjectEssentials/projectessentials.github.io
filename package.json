@@ -49,8 +49,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "devDependencies": {
-    "@jetbrains/generator-ring-ui": "2.0.83",
     "@jetbrains/eslint-config": "^5.3.1",
+    "@jetbrains/generator-ring-ui": "2.0.83",
     "@jetbrains/stylelint-config": "^2.0.1",
     "babel-eslint": "^10.1.0",
     "chai": "^4.2.0",
@@ -69,6 +69,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-teamcity-reporter": "^1.1.0",
     "karma-webpack": "^4.0.2",
+    "minimist": "^1.2.5",
     "mocha": "^7.2.0",
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2",
