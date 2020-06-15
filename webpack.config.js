@@ -41,11 +41,11 @@ const webpackConfig = () => ({
           {loader: 'postcss-loader'}
         ]
       },
-      {
-        test: /\.js$/,
-        include: [componentsPath],
-        loader: 'babel-loader?cacheDirectory'
-      }
+      // {
+      //   test: /\.js$/,
+      //   include: [componentsPath],
+      //   loader: 'babel-loader?cacheDirectory'
+      // }
     ]
   },
   devServer: {
