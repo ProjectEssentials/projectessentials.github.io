@@ -40,7 +40,7 @@ const webpackConfig = () => ({
           {loader: 'css-loader'},
           {loader: 'postcss-loader'}
         ]
-      },
+      }
       // {
       //   test: /\.js$/,
       //   include: [componentsPath],
