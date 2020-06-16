@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+
+.github-button {
+  padding-bottom: 59px;
+}
