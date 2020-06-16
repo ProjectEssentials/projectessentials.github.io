@@ -1,7 +1,12 @@
 import React from "react";
 import './feature.css'
 
-export class Feature extends React.Component {
+interface FeatureProperties {
+  title: string
+  description: string
+}
+
+export class Feature extends React.Component<FeatureProperties, any> {
   render = () => (
     <div className="feature-container">
       <p className="feature-title">{this.props.title}</p>

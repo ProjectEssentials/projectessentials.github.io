@@ -10,7 +10,7 @@ export default class Home extends React.Component {
   render = () => (
     <div>
       <div className="greetings-container">
-        <img src={EssLogo} className="greetings-logo"/>
+        <img src={EssLogo} className="greetings-logo" alt={'Project Essentials logo.'}/>
         <div>
           <span className="greetings-title">{'Project Essentials'}</span>
           <Badge className="greetings-title-badge">{'2.x'}</Badge>
