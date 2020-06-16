@@ -9,7 +9,16 @@
     "node": true,
     "browser": true
   },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
   "rules": {
-    "import/no-commonjs": "off"
+    "import/no-unresolved": "off",
+    "import/no-commonjs": "off",
+    "semi-style": "off"
   }
 }
