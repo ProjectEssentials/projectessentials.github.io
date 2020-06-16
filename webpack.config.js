@@ -7,10 +7,15 @@ const pkgConfig = require('./package.json').config;
 
 const componentsPath = join(__dirname, pkgConfig.components);
 
+ringUiWebpackConfig.loaders.svgInlineLoader.include.push(
+  require('@jetbrains/logos'),
+  require('@jetbrains/icons')
+);
+
 const webpackConfig = () => ({
   entry: `${componentsPath}/index.tsx`,
   resolve: {
-    extensions: [".ts", ".tsx", ".js", ".jsx"],
+    extensions: ['.ts', '.tsx', '.js', '.jsx'],
     mainFields: ['module', 'browser', 'main'],
     alias: {
       react: resolve('./node_modules/react'),
@@ -40,6 +45,14 @@ const webpackConfig = () => ({
           {loader: 'css-loader'},
           {loader: 'postcss-loader'}
         ]
+      },
+      {
+        test: /\.svg$/,
+        exclude: /node_modules/,
+        loader: 'svg-url-loader',
+        options: {
+          encoding: 'base64'
+        }
       }
       // {
       //   test: /\.js$/,
