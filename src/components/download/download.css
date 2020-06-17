@@ -13,9 +13,17 @@
   margin-bottom: 25px;
 }
 
+.download-cards-container > div:nth-child(even) {
+  background-color: #fafbfc;
+}
+
+.download-cards-container > div:nth-child(odd) {
+  background-color: #fff;
+}
+
 .download-title {
   text-align: center;
-  background-color: #fafbfc;
+  background-color: #FAFBFC;
   width: 100%;
   align-self: center;
   justify-self: center;
