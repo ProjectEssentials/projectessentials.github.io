@@ -20,6 +20,10 @@ export namespace Struct {
     public get first() {
       return this._first
     }
+
+    public static of<K, V>(first: K, second: V) {
+      return new ImmutablePair(first, second)
+    }
   }
 
   export class MutablePair<K, V> implements Pair<K, V> {
@@ -45,6 +49,10 @@ export namespace Struct {
 
     set second(value: V) {
       this._second = value
+    }
+
+    public static of<K, V>(first: K, second: V) {
+      return new MutablePair(first, second)
     }
   }
 }
