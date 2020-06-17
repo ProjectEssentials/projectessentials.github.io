@@ -1,0 +1,32 @@
+.download-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin-bottom: 25px;
+}
+
+.download-title {
+  text-align: center;
+  background-color: #fafbfc;
+  width: 100%;
+  align-self: center;
+  justify-self: center;
+  padding: 26px 0;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
+
+.download-footer {
+  margin-top: 25px!important;
+  margin-bottom: -40px!important;
+}
