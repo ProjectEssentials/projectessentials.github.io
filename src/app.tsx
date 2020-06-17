@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
-import Footer from '@jetbrains/ring-ui/components/footer/footer'
 import {pushStateLocationPlugin, UIRouter, UIView} from "@uirouter/react"
 import Top from './components/top/top'
 import Home from "./components/home/home"
+import Download from "./components/download/download"
 import './app.css'
 
 const states = [
-  {name: 'base', url: '/', component: Home}
+  {name: 'base', url: '/', component: Home},
+  {name: 'download', url: '/download', component: Download}
 ]
 
 const plugins = [pushStateLocationPlugin]
