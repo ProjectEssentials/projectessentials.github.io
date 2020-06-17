@@ -20,7 +20,7 @@ export default class Top extends React.Component {
           className="logo"
         />
       </a>
-      <Link href="#">{'Download'}</Link>
+      <Link href={"/download"}>{'Download'}</Link>
       <Link href="#">{'Manual'}</Link>
       <Tray>
         <TrayIcon
