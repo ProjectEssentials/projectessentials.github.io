@@ -2,7 +2,7 @@ import React from "react";
 
 import './download.css'
 import Module from "./module/module";
-import {Struct} from "../../structs/Pair";
+import {Struct} from "../../structs/pair";
 import ImmutablePair = Struct.ImmutablePair;
 
 export default class Download extends React.Component {
