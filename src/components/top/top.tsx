@@ -12,7 +12,7 @@ import './top.css'
 
 export default class Top extends React.Component {
   render = () => (
-    <Header theme={Theme.LIGHT}>
+    <Header className="top" theme={Theme.LIGHT}>
       <a title="Project Essentials" href="/">
         <img
           alt={'A red pen, is Project Essentials logo'}
@@ -21,7 +21,7 @@ export default class Top extends React.Component {
         />
       </a>
       <Link href={"/download"}>{'Download'}</Link>
-      <Link href="#">{'Manual'}</Link>
+      <Link href={"/manual"}>{'Manual'}</Link>
       <Tray>
         <TrayIcon
           className="github-button"
