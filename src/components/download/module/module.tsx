@@ -3,7 +3,7 @@ import Link from "../../link/link";
 import Footer from '@jetbrains/ring-ui/components/footer/footer';
 
 import './module.css'
-import {Struct} from "../../../structs/Pair";
+import {Struct} from "../../../structs/pair";
 import ImmutablePair = Struct.ImmutablePair;
 
 interface ModuleProperties {
