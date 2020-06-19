@@ -1,0 +1,17 @@
+.table-container {
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.inline-code {
+  margin: 5px 2px;
+  padding-right: 0 !important;
+}
+
+.inline-code > code:nth-child(1) {
+  padding: 5px 10px 5px !important;
+}
+
+.permissions-container {
+  margin-top: 25px;
+}

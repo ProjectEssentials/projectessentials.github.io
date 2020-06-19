@@ -5,9 +5,10 @@ import './manual.css'
 import {SmartTabs, Tab} from '@jetbrains/ring-ui/components/tabs/tabs';
 import {Developer} from "./developer/developer";
 import Installation from "./installation/installation";
+import {Commands} from "./commands/commands";
 
 export default class Manual extends React.Component {
-  state = {selected: 'installation'};
+  state = {selected: 'commands'};
 
   render = () => (
     <div className="manual-base-container">
@@ -18,7 +19,7 @@ export default class Manual extends React.Component {
             <Installation/>
           </Tab>
           <Tab id="commands" title="Commands">
-            Second tab content
+            <Commands/>
           </Tab>
           <Tab id="permissions" title="Permissions">
             Third tab content
