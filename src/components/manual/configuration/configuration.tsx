@@ -65,9 +65,7 @@ export default class Configuration extends React.Component {
 
           ## native-mappings.json
 
-          ### This configuration related to core module also has a JSON type.
-
-          This configuration controlling native command permissions and aliases mappings.
+          ### This configuration controlling native command permissions and aliases mappings.
 
           1. \`permissions\` object has type a \`Map\` with key type \`String\` and value type also \`String\`.
 
@@ -93,9 +91,7 @@ export default class Configuration extends React.Component {
 
           ## permissions-settings.json
 
-          ### This configuration related to permissions module also has a JSON type.
-
-          This configuration stores settings of permissions module.
+          ### This configuration stores settings of permissions module.
 
           \`\`\`json
           {
@@ -113,9 +109,7 @@ export default class Configuration extends React.Component {
 
           ## permissions.json
 
-          ### This configuration related to permissions module also has a JSON type.
-
-          This configuration stores all user permissions and groups.
+          ### This configuration stores all user permissions and groups.
 
           \`\`\`json
           {
@@ -167,6 +161,103 @@ export default class Configuration extends React.Component {
               } // <- last user, no need to semicolon here.
             ]
           } // <- god bless you, man. This end of file. Relax.
+          \`\`\`
+
+          ---
+
+          ## warps-settings.json
+
+          \`\`\`json
+          {
+            "playSoundOnTeleport": true, // plays a teleport sound after your teleporting.
+            "showEffectOnTeleport": true, // makes a teleport effects after your teleporting.
+            "addResistanceEffect": true, // adds resistance effect after your teleporting, as "shield".
+            "resistanceEffectDuration": 200, // resistance effect duration in ticks. 200 / 20 is 10 seconds.
+            "warpsLimitations": { // contains pairs of limitations. Defined this groups must have permission \`ess.warp.limit.<group-name>\`.
+              "default": 6, // default group can create 6 warps maximum.
+              "better-than-default": 8 // another group.
+            }
+          }
+          \`\`\`
+
+          ---
+
+          ## home-settings.json
+
+          \`\`\`json
+          {
+            "respawnAtHomeAfterDeath": true, // respawn player at home after death? If value will false player will respawned at spawn or bed point.
+            "respawnHomeSelectStrategy": "Last", // respawn home selecting strategy, if you want player respawn at fist his home, pass the value "First".
+            "playSoundOnTeleport": false, // plays sound after teleporing to home?
+            "showEffectOnTeleport": true, // show a teleport effect after teleporting to home?
+            "homeLimitations": { // like warp limitations, see above. (But permission is \`ess.home.limit.<group-name>\`.)
+              "default": 2
+            }
+          }
+          \`\`\`
+
+          ---
+
+          ## backup-settings.json
+
+          \`\`\`json
+          {
+            "backupEnabled": true, // backup cycle is enabled?
+            "firstLaunchDelay": true, // do delay for first launch of backup cycle?
+            "backupConfigurations": true, // do backup configuration? (config directory).
+            "backupCreationDelay": 300, // backup creation delay in seconds.
+            "backupCompressionLevel": 3, // backup compression level between 1 and 10 (inclusive).
+            "backupDirectoryPath": "backup", // backup directory path, allowed relative and absolute path.
+            "backupDateFormat": "yyyy-MM-dd_HH.mm.ss", // backup date format.
+            "maxBackupFiles": 10, // maximum backup files in out dir, between 1 and 2,147,483,647 (inclusive).
+            "rollingBackupFilesEnabled": true, // enable backup files rolling? (what is it? see this https://en.wikipedia.org/wiki/Log_rotation).
+            "notifyPlayersAboutBackup": false, // Need notification to player with specified permission about backup done?
+            "purgeBackupOutDirectory": true, // Do purge backup directory? (clean up from other files).
+            "purgeExtensionsExceptions": [], // Exceptions of files which specified extension while purging. (Files with passed extensions will not removed.)
+            "purgeNamesExceptions": [] // Exceptions of file names while purging. (Files with passed names will not removed.)
+          }
+          \`\`\`
+
+          ---
+
+          ## kits.json
+
+          \`\`\`json
+          {
+            "kits": [ // <- kits array start this.
+              { // <- kit "data class".
+                "name": "newbies", <- kit name.
+                "delay": 43200, <- kit receiving delay, in seconds, value between -1 and 2,147,483,647.
+                "requiredMinOpLevel": 0, // <- required min op level for receiving kit, if you plays without any permissions providers.
+                "items": [ // <- Items array for this kit.
+                  { // <- Item start this :).
+                    "name": "oak_wood", <- Item index (since 1.13 ID not uses).
+                    "count": 8, <- Count of this item.
+                    "displayName": "&7[&cStarter %player's Item&7]", <- Display name of this item. (%player and %kit as variables available now).
+                    "enchantments": [] // <- Enchantments for this item. I think oak no need to enchant lol.
+                  }, // <- DON'T FORGET THIS, SAINT COMMA!
+                  {
+                    // I think no need comments here.
+                    "name": "cow_spawn_egg", // <- yea, even the egg.
+                    "count": 1,
+                    "displayName": "&7[&c%player's cow&7]",
+                    "enchantments": []
+                  },
+                  {
+                    "name": "diamond_sword",
+                    "count": 1, // <- you can also make it more lol :D.
+                    "displayName": "&7[&dGod's Sword&7]",
+                    "enchantments": [
+                      {
+                        "enchantment": "knockback", // <- Enchantment (see other here https://minecraft.gamepedia.com/Enchanting -> Data values)
+                        "level": 1 // <- Level of enchantment, probably allowed to use any unsafe level (bigger than normal).
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
           \`\`\`
         `}
       />
