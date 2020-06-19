@@ -1,0 +1,22 @@
+[
+  { "permission": "ess.back.ondeath / 3", "description": "Allows to teleport to death location via back command." },
+  { "permission": "ess.notification.support / 4", "description": "Allows to see project essentials notification." },
+  { "permission": "ess.vanish.auto / 4", "description": "Allows enable vanish mode automatically on join." },
+  { "permission": "ess.fly.auto / 3", "description": "Allows enable fly mode automatically on join." },
+  { "permission": "ess.god.auto / 3", "description": "Allows enable god mode automatically on join." },
+  { "permission": "ess.afk.kick.bypass / 3", "description": "Bypass for kicking for long time afk." },
+  { "permission": "ess.kit.bypass / 4", "description": "Bypass for kit cooldown." },
+  { "permission": "ess.inventory.edit / 4", "description": "Allows to edit player inventory in invsee command." },
+  { "permission": "ess.backup.notify / 4", "description": "Allows to notify player about backup done." },
+  { "permission": "ess.home.limit.except / 4", "description": "Allows to sets LITERALLY 2,147,483,647 homes." },
+  { "permission": "ess.warp.limit.except / 4", "description": "Allows to sets LITERALLY 2,147,483,647 warps." },
+  { "permission": "ess.warp.remove.other / 4", "description": "Allows to remove warp created by other player." },
+  { "permission": "native.event.world.<dim-registry-name>.block.<block-registry-name>.break / ~", "description": "Allows to break specified block in world." },
+  { "permission": "native.event.world.<dim-registry-name>.block.<block-registry-name>.place / ~", "description": "Allows to break specified place in world." },
+  { "permission": "native.event.world.block.break / ~", "description": "That simplified permission of above, works if useSimplifiedWorldPermissions setting is enabled." },
+  { "permission": "native.event.world.block.place / ~", "description": "That simplified permission of above, works if useSimplifiedWorldPermissions setting is enabled." },
+  { "permission": "native.event.world.<dim-registry-name>.block.farmland.trample / ~", "description": "Allows to trample farmland in specified dimension." },
+  { "permission": "native.event.world.block.farmland.trample / ~", "description": "That simplified permission of above, works if useSimplifiedWorldPermissions setting is enabled." },
+  { "permission": "native.event.world.<dim-registry-name>.item.<item-registry-name>.use / ~", "description": "Allows to use specified item in specified dimenstion." },
+  { "permission": "native.event.world.item.use / ~", "description": "That simplified permission of above, works if useSimplifiedWorldPermissions setting is enabled." }
+]

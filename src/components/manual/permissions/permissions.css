@@ -9,12 +9,7 @@
 }
 
 .inline-code > code:nth-child(1) {
-  max-width: unset!important;
   padding: 5px 10px 5px !important;
-}
-
-.cell_a14:last-child {
-  max-width: unset!important;
 }
 
 .permissions-container {

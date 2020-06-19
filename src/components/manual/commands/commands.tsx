@@ -49,23 +49,21 @@ export class Commands extends React.Component {
 
   onSort = ({column: {id: sortKey}, order: sortOrder}) => this.setState({sortKey, sortOrder})
 
-  onPageChange = page => {
-    this.setState({page});
-  };
+  onPageChange = page => this.setState({page})
 
   loadPage = () => {
-    const {page, pageSize, sortKey, sortOrder} = this.state;
-    let data = [...mock];
-    data.sort((a, b) => a[sortKey].localeCompare(b[sortKey]) * (sortOrder ? 1 : -1));
-    data = data.slice((page - 1) * pageSize, (page - 1) * pageSize + pageSize);
-    const selection = new Selection({data});
-    this.setState({data, selection});
-  };
+    const {page, pageSize, sortKey, sortOrder} = this.state
+    let data = [...mock]
+    data.sort((a, b) => a[sortKey].localeCompare(b[sortKey]) * (sortOrder ? 1 : -1))
+    data = data.slice((page - 1) * pageSize, (page - 1) * pageSize + pageSize)
+    const selection = new Selection({data})
+    this.setState({data, selection})
+  }
 
   render = () => {
     const {
       data, caption, selectable, draggable, page, pageSize, total, selection, sortKey, sortOrder
-    } = this.state;
+    } = this.state
 
     return (
       <div>
@@ -231,6 +229,29 @@ export class Commands extends React.Component {
                     - description: sets new prefix for target group.
                     - required node: ess.permissions.group.prefix.set
             \`\`\`
+
+            ## What about vanilla?
+
+            Yea, vanilla commands also overriden and "injected" a permissions checking code.
+
+            All vanilla, i.e "native" commands has simple permission node, for example:
+
+            1. \`scoreboard\` command will has a \`native.scoreboard\` permission node.
+            2. \`time\` command will has a \`native.time\` permission node.
+
+            **Note: all vanilla commands also have the same op levels like in vanilla. (read more you can at minecraft wiki)**
+
+            But, some permission has not a standard permission notation, you can see some native commands permissions mapping in configuration file \`native-mappings.json\`.
+            Also, some commands have a improved permissions checking, you can see that below:
+
+            1. \`enchant\` command: \`native.enchant.other\` - allows enchants item of other player.
+            2. \`gamemode\` command: \`native.gamemode.<mode>\` - allows switch own mode to specific game mode.
+            3. \`reload\` command: \`native.server.reload\` - allows to reload server configurations.
+            4. \`save-all\` command: \`native.save.all\` - allows to save player, configuration, world data.
+            5. \`time set\` command: \`native.time.change.set\` - allows to change current world time.
+            6. \`time add\` command: \`native.time.change.add\` - allows to add time to current world time.
+            7. \`time query\` command: \`native.time.query\` - allows to query world time.
+            8. \`weather\` command: \`native.weather.<weather>\` - allows to change world weather to specified. (for weather clear is \`weather.sun\`).
           `}
         />
       </div>
