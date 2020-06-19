@@ -1,0 +1,27 @@
+.tab-bar {
+  flex-wrap: wrap;
+}
+
+.tab-bar > div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.manual-base-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.documentation-tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  max-width: 950px;
+  margin: 25px;
+  padding: 40px;
+  background-color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+}
