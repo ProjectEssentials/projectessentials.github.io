@@ -5,7 +5,7 @@ import Pager from '@jetbrains/ring-ui/components/pager/pager'
 import Code from '@jetbrains/ring-ui/components/code/code'
 import Table from '@jetbrains/ring-ui/components/table/table'
 import Selection from '@jetbrains/ring-ui/components/table/selection'
-import mock from './permissions.json'
+const mock = require('./permissions.json')
 
 import './permissions.css'
 
