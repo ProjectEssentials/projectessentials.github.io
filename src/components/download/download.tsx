@@ -26,9 +26,9 @@ export default class Download extends React.Component {
           urlend={null}
           description={"A basic module of Project Essentials. This module adds a few basic commands in minecraft for the project. Many of the commands in this module will be familiar to you from EssentialsX."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Basic-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Basic-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Basic-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Basic-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
           previewMap={new Map()}
         />
@@ -48,24 +48,20 @@ export default class Download extends React.Component {
           urlend={"spawn"}
           description={"How we control spawn point! Adds literally two commands to configure players spawn point in the game world."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Spawn-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Spawn-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Spawn-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Spawn-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
-          previewMap={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.1-RC.1%2BMC-1.15.2/Project.Essentials.Spawn-2.0.1-RC.1+MC-1.15.2.jar", "2.1.0-RC.1")
-          ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Spawn/releases/download/2.0.1-RC.1%2BMC-1.14.4/Project.Essentials.Spawn-2.0.1-RC.1+MC-1.14.4.jar", "2.1.0-RC.1")
-          )}
+          previewMap={new Map()}
         />
         <Module
           name={"Warps Module"}
           urlend={"warps"}
           description={"Share the ender portal with players! Adds the ability to control public points in different worlds."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Warps-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Warps-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Warps-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Warps/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Warps-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
           previewMap={new Map()}
         />
@@ -74,9 +70,9 @@ export default class Download extends React.Component {
           urlend={"home"}
           description={"A wonderful module not to lose your home! The module allows you to create, delete and teleport to homes."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Home-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Home-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Home-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Home/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Home-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
           previewMap={new Map()}
         />
@@ -85,9 +81,9 @@ export default class Download extends React.Component {
           urlend={"backup"}
           description={"Lightweight module for controlling the backup of the game world and configuration files on the server and in a single world."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Backup-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Backup-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Backup-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Backup/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Backup-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
           previewMap={new Map()}
         />
