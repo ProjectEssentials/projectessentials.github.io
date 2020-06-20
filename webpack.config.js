@@ -53,12 +53,12 @@ const webpackConfig = () => ({
         options: {
           encoding: 'base64'
         }
+      },
+      {
+        test: /\.js$/,
+        include: [componentsPath],
+        loader: 'babel-loader?cacheDirectory'
       }
-      // {
-      //   test: /\.js$/,
-      //   include: [componentsPath],
-      //   loader: 'babel-loader?cacheDirectory'
-      // }
     ]
   },
   devServer: {
