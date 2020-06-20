@@ -14,7 +14,8 @@
     "lint": "eslint . && npm run stylelint",
     "stylelint": "stylelint --ignore-path .gitignore **/*.css",
     "ci-test": "npm run lint && xvfb-maybe karma start --teamcity",
-    "start": "webpack-dev-server -d --history-api-fallback --inline --hot --colors --port 9011"
+    "start": "webpack-dev-server -d --history-api-fallback --inline --hot --colors --port 9011",
+    "deploy": "npm run build && .\\publish-process.sh && gh-pages -d ./dist --branch master"
   },
   "babel": {
     "presets": [
@@ -70,20 +71,21 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "eslint": "^7.2.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-bdd": "^2.1.1",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^4.0.4",
-    "eslint-plugin-import": "^2.21.2",
-    "eslint-plugin-bdd": "^2.1.1",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^3.0.0",
     "minimist": "^1.2.5",
     "mocha": "^7.2.0",
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2",
-    "svg-url-loader": "^6.0.0",
     "sinon-chai": "^3.5.0",
     "stylelint": "^13.6.0",
+    "svg-url-loader": "^6.0.0",
     "ts-loader": "^7.0.5",
     "xvfb-maybe": "^0.2.1",
     "yo": "^3.1.1"
