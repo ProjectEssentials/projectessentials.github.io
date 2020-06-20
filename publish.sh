@@ -11,6 +11,6 @@ cp ./index.html ./404.html
 cd dist || exit
 rm index.html 200.html 404.html
 
-git add ./
+git add -A
 git commit -m "Deploy."
 git push
