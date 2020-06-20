@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "@jetbrains",
+    "@jetbrains/eslint-config/es6",
+    "@jetbrains/eslint-config/node"
+  ],
+  "env": {
+    "node": true,
+    "browser": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    }
+  },
+  "rules": {
+    "import/no-unresolved": "off",
+    "import/no-commonjs": "off",
+    "semi-style": "off"
+  }
+}
