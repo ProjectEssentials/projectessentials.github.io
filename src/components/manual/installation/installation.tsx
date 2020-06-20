@@ -23,7 +23,7 @@ export default class Installation extends React.Component {
 
           1. In your game/server root folder, create a "mods" folder if one does not yet exist.
           2. Download or copy "Project Essentials XXX-[version].jar" into the "mods" folder.
-          3. Don't forget install dependencies (if you install one of not main modules).
+          3. Don't forget install dependencies (core module for all, and worldedit for protect module).
           4. Start your server or client.
 
           ## Localization?
