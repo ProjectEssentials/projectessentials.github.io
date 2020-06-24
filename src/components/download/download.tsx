@@ -37,9 +37,9 @@ export default class Download extends React.Component {
           urlend={"permissions"}
           description={"API for controlling the activities of the player on the server and client. You can limit some commands to the player, his activities in the world and more."}
           map={new Map().set(
-            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0%2BMC-1.15.2/Project.Essentials.Permissions-2.0.0+MC-1.15.2.jar", "2.0.0")
+            "1.15.2", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.1%2BMC-1.15.2/Project.Essentials.Permissions-2.0.1+MC-1.15.2.jar", "2.0.1")
           ).set(
-            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.0%2BMC-1.14.4/Project.Essentials.Permissions-2.0.0+MC-1.14.4.jar", "2.0.0")
+            "1.14.4", ImmutablePair.of("https://github.com/ProjectEssentials/ProjectEssentials-Permissions/releases/download/2.0.1%2BMC-1.14.4/Project.Essentials.Permissions-2.0.1+MC-1.14.4.jar", "2.0.1")
           )}
           previewMap={new Map()}
         />
