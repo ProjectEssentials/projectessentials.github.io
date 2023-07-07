@@ -84,7 +84,7 @@
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2",
     "sinon-chai": "^3.5.0",
-    "stylelint": "^13.6.0",
+    "stylelint": "^15.10.1",
     "svg-url-loader": "^6.0.0",
     "ts-loader": "^7.0.5",
     "xvfb-maybe": "^0.2.1",
